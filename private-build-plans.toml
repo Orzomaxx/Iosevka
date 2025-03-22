@@ -27,3 +27,33 @@ exportGlyphNames = true
     lig-equal-chain = "with-notch"
     lig-hyphen-chain = "with-notch"
     lig-plus-chain = "with-notch"
+
+[buildPlans.IosevkaOrzo.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaOrzo.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaOrzo.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaOrzo.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaOrzo.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaOrzo.widths.SemiCondensed]
+shape = 548
+menu = 4
+css = "semi-condensed"
