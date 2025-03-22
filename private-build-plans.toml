@@ -49,11 +49,6 @@ menu = 700
 css = 700
 
 [buildPlans.IosevkaOrzo.widths.Normal]
-shape = 500
+shape = 566
 menu = 5
-css = "normal"
-
-[buildPlans.IosevkaOrzo.widths.SemiExtended]
-shape = 548
-menu = 6
 css = "semi-expanded"
