@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        fontName: ["IosevkaOrzo", "IosevkaOrzoNL"]
+        fontName: ["IosevkaOrzoNL", "IosevkaOrzo"]
 
     steps:
       # Checkout repository into `iosevka` sub directory
