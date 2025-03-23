@@ -37,9 +37,9 @@ buildTextureFeature = true
     brace = "straight"
     question = "smooth"
     lig-ltgteq = "flat"
-    lig-equal-chain = "with-notch"
-    lig-hyphen-chain = "with-notch"
-    lig-plus-chain = "with-notch"
+    lig-equal-chain = "without-notch"
+    lig-hyphen-chain = "withoit-notch"
+    lig-plus-chain = "without-notch"
 
   [buildPlans.IosevkaOrzo.ligations]
   inherits = "default-calt"
@@ -56,9 +56,9 @@ buildTextureFeature = true
     "center-op-influence-dot", # Treat dot (.) as operator and perform chained centering.
     "center-op-influence-colon", # Treat colon (:) as operator and perform chained centering.
 
-    "trig", # <|, |> , <||, and other bar-and-angle-bracket symbols
+    "trig",           # <|, |> , <||, and other bar-and-angle-bracket symbols
     "ltgt-slash-tag", # </, /> and </>
-    "exeqeqeq", # !=== with triple lines
+    "exeqeqeq"        # !=== with triple lines
   ]
 
 [buildPlans.IosevkaOrzo.widths.Normal]
